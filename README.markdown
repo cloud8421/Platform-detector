@@ -1,11 +1,10 @@
-Platform detector 0.1
+###Platform detector 0.1
  
 By Claudio Ortolina (claudio@jumpzero.com)
-http://github.com/cloud8421/platform_detector
 
-This simple script tries to solve a potential issue when some people fake their User Agent when browsing a particular site.
+This simple script tries to solve a potential issue when some people fake their User Agent when browsing a specific site.
 
-Some of them may do it for legitimate reasons: pretending to using Mobile Safari on an iPad lets you sometimes avoid Flash video and use HTML5. There are however issues when you use user agent detection to serve different files or change Javascript logic.
+Some of them may do it for legitimate reasons: pretending to use Mobile Safari even on the desktop lets you sometimes avoid Flash video and use HTML5. There are however issues when you use user agent detection to serve different files or change Javascript logic.
 
 This script is not at all a replacemente for tools like Modernizr. It simply aims to tell you what kind of platform you're dealing with. There are no version numbers or more granular parameters.
 
