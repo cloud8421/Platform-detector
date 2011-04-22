@@ -12,20 +12,20 @@ Please take into account that this script doesn't tell you what kind of support 
 
 Usage is simple. Just link it in your header
 
-  <script type="text/javascript" src="platform_detector.js"></script>
+    <script type="text/javascript" src="platform_detector.js"></script>
 
 Then you can access it by running the main function and assigning it to a variable:
 
-  <script>
-    var platform = platform_detector();
-  </script>
+    <script>
+      var platform = platform_detector();
+    </script>
 
 The platform object you have now is made like this:
 
-  platform = {
-    pretend : 'what the browser is telling you it is',
-    real: 'what the browser is under the hood'
-  }
+    platform = {
+      pretend : 'what the browser is telling you it is',
+      real: 'what the browser is under the hood'
+    }
 
 What's missing:
 
