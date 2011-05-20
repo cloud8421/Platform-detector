@@ -60,14 +60,20 @@ function user_agent_to_human(user_agent) {
     case /Chrome.*\bSafari\b/i.test(user_agent):
       return 'Chrome';
       break;
-    case /Safari/i.test(user_agent): //need to find the correct regexp for this, as matching works only after previous
+    case /Safari/i.test(user_agent): //need to find the correct regex for this, as matching works only after previous
       return 'Safari';
       break;
     case /Opera/i.test(user_agent):
       return 'Opera';
       break;
-    case /MSIE/i.test(user_agent):
-      return 'Internet Explorer';
+    case /MSIE 8.0/i.test(user_agent):
+      return 'Internet Explorer 8';
+      break;
+    case /MSIE 7.0/i.test(user_agent):
+      return 'Internet Explorer 7';
+      break;
+    case /MSIE 6.0/i.test(user_agent):
+      return 'Internet Explorer 6';
       break;
   }
 }
